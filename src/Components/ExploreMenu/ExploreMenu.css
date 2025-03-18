@@ -41,7 +41,11 @@
     margin: 10px 0px;
     height: 2px;
     background-color: #e2e2e2;
-    border: none;
+    border: none;               
 }
 
+.explore-menu-list-item .active{
+    border: 3px solid tomato;
+    padding: 2px;
+}
 
