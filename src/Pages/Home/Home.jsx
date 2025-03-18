@@ -3,10 +3,16 @@ import './home.css'
 import Header from '../../Components/Header/Header'
 import Exploremenu from '../../Components/ExploreMenu/Exploremenu'
 const Home = () => {
-  return (
+
+  const [category, setCategory] = useState("All");
+  
+
+  const [category, setCategory] = useState("All");
+  
+  return ( category={category} setCategory={setCategory}
     <div>
       <Header/>
-      <Exploremenu/>
+      <Exploremenu category={category} setCategory={setCategory}/>
     </div>
   )
 }
