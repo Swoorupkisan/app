@@ -1,19 +1,19 @@
-NomNom Food Delivery App 🍕
+# NomNom Food Delivery App 🍕
 
-Overview
+## Overview
 
 NomNom is a modern food delivery web application built with React, offering users a seamless experience to browse, order, and enjoy their favorite meals.
 
-Features 🌟
+### Features 🌟
 
-1. User Interface
+#### 1. User Interface
 
 Responsive Design: Adapts seamlessly across all devices
 Interactive Menu: Dynamic food exploration with category filters
 Smooth Animations: Enhanced user experience with CSS transitions
 Cart Management: Real-time cart updates with intuitive controls
 
-2. Key Components
+#### 2. Key Components
 
 Navigation System:
 / → Home
@@ -25,31 +25,31 @@ Menu Explorer: Category-wise food browsing
 Cart System: Real-time order management
 
 
-3. Technical Stack 🛠️
+#### 3. Technical Stack 🛠️
  
-Frontend
+#### Frontend
 
  React.js
  React Router for navigation
  Context API for state management
  CSS3 for styling and animations
-Key Features
+#### Key Features
 
  Dynamic cart functionality
  Real-time price calculations
  Responsive image loading
  Smooth state transitions
 
-Installation 💻
+## Installation 💻
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/yourusername/nomnom.git
 
-# Navigate to project directory
+### Navigate to project directory
 cd nomnom
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Start development server
+### Start development server
 npm start
