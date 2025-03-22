@@ -1,12 +1,55 @@
-# React + Vite
+NomNom Food Delivery App 🍕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+NomNom is a modern food delivery web application built with React, offering users a seamless experience to browse, order, and enjoy their favorite meals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features 🌟
 
-## Expanding the ESLint configuration
+1. User Interface
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive Design: Adapts seamlessly across all devices
+Interactive Menu: Dynamic food exploration with category filters
+Smooth Animations: Enhanced user experience with CSS transitions
+Cart Management: Real-time cart updates with intuitive controls
+
+2. Key Components
+
+Navigation System:
+/ → Home
+/cart → Shopping Cart
+/order → Order Placement
+
+Authentication: Modal-based login system
+Menu Explorer: Category-wise food browsing
+Cart System: Real-time order management
+
+
+3. Technical Stack 🛠️
+ 
+Frontend
+
+ React.js
+ React Router for navigation
+ Context API for state management
+ CSS3 for styling and animations
+Key Features
+
+ Dynamic cart functionality
+ Real-time price calculations
+ Responsive image loading
+ Smooth state transitions
+
+Installation 💻
+
+# Clone the repository
+git clone https://github.com/yourusername/nomnom.git
+
+# Navigate to project directory
+cd nomnom
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
