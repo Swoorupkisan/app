@@ -34,8 +34,7 @@
     transition: width 0.3s ease-in-out;
 }
 
-.navbar-menu li:hover::after,
-.navbar-menu .active::after {
+.navbar-menu li:hover::after {
     width: 100%;
 }
 
@@ -72,4 +71,56 @@
     border-radius: 50%;
     top: -4px;
     right: -4px;
+}
+
+@media(max-width: 1050px) {
+    .Navbar .logo {
+        width: 140px;
+    }
+
+    .navbar-menu {
+        gap: 20px;
+        font-size: 17px;
+    }
+
+    .navbar-right {
+        gap: 20px;
+    }   
+    .navbar-right img{
+        width : 20px;
+    }
+
+    .Navbar-right button {
+       padding: 8px 25px;
+    }
+    
+}
+
+@media(max-width: 900px) {
+    .Navbar .logo {
+        width: 120px;
+    }
+
+    .navbar-menu {
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .navbar-right {
+        gap: 20px;
+    }   
+    .navbar-right img{
+        width : 20px;
+    }
+
+    .Navbar-right button {
+       padding: 7px 20px;
+       font-size: 15px;
+    }
+}
+@media(max-width: 750px) {
+  
+    .navbar-menu {
+        display: none;
+    }
 }
