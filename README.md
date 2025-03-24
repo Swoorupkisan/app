@@ -51,3 +51,9 @@ NomNom is a modern food delivery web application built with React, offering user
 
 ```sh
 git clone https://github.com/yourusername/nomnom.git
+
+cd nomnom
+
+npm install
+
+npm start
