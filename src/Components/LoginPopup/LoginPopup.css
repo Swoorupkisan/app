@@ -27,7 +27,7 @@
 }
 .login-popup-title img{
     width: 16px;
-    cursor: position; 
+    cursor: pointer;
 }
 .login-popup-inputs {
     display: flex;
@@ -48,7 +48,13 @@
     background-color: tomato;
     font-size: 15px;
     cursor: pointer;
+    transition: 0.3s;
 }
+
+.login-popup-container button:hover {
+    background-color: #d14040;
+}
+
 .login-popup-condition{
     display: flex;
     align-items: start;
@@ -62,4 +68,8 @@
     color: tomato;
     cursor: pointer;
     font-weight: 500;
+}
+
+.login-popup p span:hover {
+    text-decoration: underline;
 }
