@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
  <BrowserRouter>
  <StoreContextProvider>
     <App />
-    </StoreContextProvider>
-  </BrowserRouter>
+  </StoreContextProvider>
+</BrowserRouter>
   
-)
+);

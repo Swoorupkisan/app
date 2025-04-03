@@ -6,6 +6,9 @@ import validator from "validator"
 
 //                                        login user
 const loginUser = async (req, res) => {
+
+   const frontend_url = "http://localhost:5173";
+
     const { email, password } = req.body;
     try {
         const user = await userModel.findOne({ email });
